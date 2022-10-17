@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>NetTopologySuite.Swagger</Title>
+    <Authors>cocaine coder</Authors>
+    <Description>netcore api swagger type examples of nettopologysuite geometry type</Description>
+    <PackageProjectUrl>https://github.com/cocaine-coder/NetTopologySuite.Swagger</PackageProjectUrl>
+    <PackageIcon>image.png</PackageIcon>
+    <RepositoryUrl>https://github.com/cocaine-coder/NetTopologySuite.Swagger</RepositoryUrl>
+    <PackageTags>NetTopologySuite Swagger</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetTopologySuite.Features" Version="2.1.0" />
+    <PackageReference Include="NJsonSchema" Version="10.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="image.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
